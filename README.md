@@ -2,75 +2,73 @@
 
 A monospace character set designed to draw hexagonal characters, that can be used in flat files or a terminal.
 
-It aims to be the equivalent of the [box-drawing characters](https://en.wikipedia.org/wiki/Box_Drawing) for hexagons. Like this last, the hexagon-drawing characters are designed with 3 line styles: *light*, *heavy* and *double*.
+It aims to be the equivalent of the [box-drawing characters](https://en.wikipedia.org/wiki/Box_Drawing) for hexagons. This set is designed with 2 line styles: *simple* and *double*, and allow mixing both.
 
 ## Large Flat-top Hexagon Drawings
 
-This set is composed of 11 shapes:
+The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free slots in the center, that can be used to include any other monospace character.
 
-![](images/chars/large_flat_top/heavy_straight_line_horizontal.png)
-![](images/chars/large_flat_top/heavy_diagonal_falling.png)
-![](images/chars/large_flat_top/heavy_diagonal_rising.png)
-![](images/chars/large_flat_top/heavy_corner_lower_left.png)
-![](images/chars/large_flat_top/heavy_corner_lower_right.png)
-![](images/chars/large_flat_top/heavy_corner_left.png)
-![](images/chars/large_flat_top/heavy_corner_right.png)
-![](images/chars/large_flat_top/heavy_corner_upper_left.png)
-![](images/chars/large_flat_top/heavy_corner_upper_right.png)
-![](images/chars/large_flat_top/heavy_fork_left.png)
-![](images/chars/large_flat_top/heavy_fork_right.png)
+### Character set
+
+#### Simple lines (11 chars)
+
+![](images/chars/large_flat_top/simple_straight_line_horizontal.png)
+![](images/chars/large_flat_top/simple_corner_lower_left.png)
+![](images/chars/large_flat_top/simple_corner_lower_right.png)
+![](images/chars/large_flat_top/simple_corner_upper_left.png)
+![](images/chars/large_flat_top/simple_corner_upper_right.png)
+![](images/chars/large_flat_top/simple_corner_left.png)
+![](images/chars/large_flat_top/simple_corner_right.png)
+![](images/chars/large_flat_top/simple_fork_right.png)
+![](images/chars/large_flat_top/simple_fork_left.png)
+![](images/chars/large_flat_top/simple_diagonal_rising.png)
+![](images/chars/large_flat_top/simple_diagonal_falling.png)
+
+![](./images/examples/large_flat_top_simple.png)
+
+#### Double lines (11 chars)
+
+![](images/chars/large_flat_top/double_straight_line_horizontal.png)
+![](images/chars/large_flat_top/double_corner_lower_left.png)
+![](images/chars/large_flat_top/double_corner_lower_right.png)
+![](images/chars/large_flat_top/double_corner_upper_left.png)
+![](images/chars/large_flat_top/double_corner_upper_right.png)
+![](images/chars/large_flat_top/double_corner_left.png)
+![](images/chars/large_flat_top/double_corner_right.png)
+![](images/chars/large_flat_top/double_fork_right.png)
+![](images/chars/large_flat_top/double_fork_left.png)
+![](images/chars/large_flat_top/double_diagonal_rising.png)
+![](images/chars/large_flat_top/double_diagonal_falling.png)
+
+![](./images/examples/large_flat_top_double.png)
+
+#### Mixed (12 chars)
+
+![](images/chars/large_flat_top/simple_fork_right_double_lower_right.png)
+![](images/chars/large_flat_top/double_fork_right_simple_left.png)
+![](images/chars/large_flat_top/simple_fork_right_double_left.png)
+![](images/chars/large_flat_top/double_fork_right_simple_upper_right.png)
+![](images/chars/large_flat_top/simple_fork_right_double_upper_right.png)
+![](images/chars/large_flat_top/double_fork_right_simple_lower_right.png)
+![](images/chars/large_flat_top/double_fork_left_simple_lower_left.png)
+![](images/chars/large_flat_top/simple_fork_left_double_upper_left.png)
+![](images/chars/large_flat_top/double_fork_left_simple_upper_left.png)
+![](images/chars/large_flat_top/simple_fork_left_double_right.png)
+![](images/chars/large_flat_top/double_fork_left_simple_right.png)
+![](images/chars/large_flat_top/simple_fork_left_double_lower_left.png)
+
+![](./images/examples/large_flat_top_mixed.png)
+
+### Construction
+
+If we ignore the line style, this character set can be composed in 11 shapes:
 
 - 1 horizontal bar;
 - 6 corners;
 - 2 forks used to connect hexagons;
 - 2 diagonal bars used to extend the hexagons in order to get bigger ones.
 
-The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free slots in the center, that can be used to include any other monospace character.
-
-### Examples of use
-
-#### Minimal hexagon
-
-![](./images/examples/large_flat_top_simple.png)
-
-#### Extended hexagon
-
-![](./images/examples/large_flat_top_extended.png)
-
-#### Hexagonal tiling
-
-![](./images/examples/large_flat_top_tiling.png)
-
-### Representation
-
-#### Light
-
-*Coming soon*
-
-#### Heavy
-
-| image | name | note |
-|-------|------|------|
-| **Lines** |||
-| ![](images/chars/large_flat_top/heavy_straight_line_horizontal.png) | heavy straight line horizontal | similar to `━`: `\u2501` - Box Drawings Heavy Horizontal |
-| ![](images/chars/large_flat_top/heavy_diagonal_falling.png) | heavy diagonal falling | |
-| ![](images/chars/large_flat_top/heavy_diagonal_rising.png) | heavy diagonal rising | |
-| **Corners** |||
-| ![](images/chars/large_flat_top/heavy_corner_lower_left.png) | heavy corner lower left | |
-| ![](images/chars/large_flat_top/heavy_corner_lower_right.png) | heavy corner lower right | |
-| ![](images/chars/large_flat_top/heavy_corner_left.png) | heavy corner left | |
-| ![](images/chars/large_flat_top/heavy_corner_right.png) | heavy corner right | |
-| ![](images/chars/large_flat_top/heavy_corner_upper_left.png) | heavy corner upper left | |
-| ![](images/chars/large_flat_top/heavy_corner_upper_right.png) | heavy corner upper right | |
-| **Forks** |||
-| ![](images/chars/large_flat_top/heavy_fork_left.png) | heavy fork left | |
-| ![](images/chars/large_flat_top/heavy_fork_right.png) | heavy fork right | |
-
-#### Double
-
-*Coming soon*
-
-### Construction
+The following image explains how these shapes are built:
 
 ![](images/construction/large_flat_top.png)
 
