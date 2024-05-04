@@ -1,20 +1,31 @@
 # Hexagon-drawing characters
 
-A monospace characters set designed to draw hexagonal characters, that can be used in flat files or a terminal.
+A monospace character set designed to draw hexagonal characters, that can be used in flat files or a terminal.
 
 It aims to be the equivalent of the [box-drawing characters](https://en.wikipedia.org/wiki/Box_Drawing) for hexagons. Like this last, the hexagon-drawing characters are designed with 3 line styles: *light*, *heavy* and *double*.
 
 ## Large Flat-top Hexagon Drawings
 
 This set is composed of 11 shapes:
+
+![](images/chars/large_flat_top/heavy_straight_line_horizontal.png)
+![](images/chars/large_flat_top/heavy_diagonal_falling.png)
+![](images/chars/large_flat_top/heavy_diagonal_rising.png)
+![](images/chars/large_flat_top/heavy_corner_lower_left.png)
+![](images/chars/large_flat_top/heavy_corner_lower_right.png)
+![](images/chars/large_flat_top/heavy_corner_left.png)
+![](images/chars/large_flat_top/heavy_corner_right.png)
+![](images/chars/large_flat_top/heavy_corner_upper_left.png)
+![](images/chars/large_flat_top/heavy_corner_upper_right.png)
+![](images/chars/large_flat_top/heavy_fork_left.png)
+![](images/chars/large_flat_top/heavy_fork_right.png)
+
 - 1 horizontal bar;
 - 6 corners;
 - 2 forks used to connect hexagons;
 - 2 diagonal bars used to extend the hexagons in order to get bigger ones.
 
-The smallest hexagon in this set can be drawn on a 5x3 grid.
-
-It contains 3 free slots in the center, that can be used to include any other monospace character.
+The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free slots in the center, that can be used to include any other monospace character.
 
 ### Examples of use
 
@@ -92,7 +103,7 @@ Each crosshair is located on the center of its surrouding box.
 
 Characters representation, examples and construction:
 
-![](schematics/exports/png/large_pointy_top.png)
+![](images/construction/large_pointy_top.png)
 
 The vertical bar is supposed to be similar to `┃` (`\u2503`: Box Drawings Heavy Vertical)
 
