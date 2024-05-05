@@ -6,11 +6,12 @@ It aims to be the equivalent of the [box-drawing characters](https://en.wikipedi
 
 ## Large flat-top hexagons
 
-The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free slots in the center, that can be used to include any other monospace character.
+This set is used to draw flat-top hexagons and contains 34 glyphs.
 
-### Simple lines (11 chars)
+The smallest hexagon can be drawn on a 5x3 grid and contains 3 free slots in the center, that can be used to include any other monospace character.
 
-![](images/chars/large_flat_top/simple_horizontal_line.png)
+### Simple lines (11 glyphs)
+
 ![](images/chars/large_flat_top/simple_corner_lower_left.png)
 ![](images/chars/large_flat_top/simple_corner_lower_right.png)
 ![](images/chars/large_flat_top/simple_corner_upper_left.png)
@@ -19,14 +20,14 @@ The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free 
 ![](images/chars/large_flat_top/simple_corner_right.png)
 ![](images/chars/large_flat_top/simple_fork_right.png)
 ![](images/chars/large_flat_top/simple_fork_left.png)
+![](images/chars/large_flat_top/simple_horizontal_line.png)
 ![](images/chars/large_flat_top/simple_diagonal_rising.png)
 ![](images/chars/large_flat_top/simple_diagonal_falling.png)
 
 ![](./images/examples/large_flat_top_simple.png)
 
-### Double lines (11 chars)
+### Double lines (11 glyphs)
 
-![](images/chars/large_flat_top/double_horizontal_line.png)
 ![](images/chars/large_flat_top/double_corner_lower_left.png)
 ![](images/chars/large_flat_top/double_corner_lower_right.png)
 ![](images/chars/large_flat_top/double_corner_upper_left.png)
@@ -35,12 +36,13 @@ The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free 
 ![](images/chars/large_flat_top/double_corner_right.png)
 ![](images/chars/large_flat_top/double_fork_right.png)
 ![](images/chars/large_flat_top/double_fork_left.png)
+![](images/chars/large_flat_top/double_horizontal_line.png)
 ![](images/chars/large_flat_top/double_diagonal_rising.png)
 ![](images/chars/large_flat_top/double_diagonal_falling.png)
 
 ![](./images/examples/large_flat_top_double.png)
 
-### Mixed (12 chars)
+### Mixed (12 glyphs)
 
 ![](images/chars/large_flat_top/simple_fork_right_double_lower_right.png)
 ![](images/chars/large_flat_top/simple_fork_left_double_lower_left.png)
@@ -59,9 +61,66 @@ The smallest hexagon in this set can be drawn on a 5x3 grid. It contains 3 free 
 
 ## Large pointy-top hexagons
 
-Like in the flat-top set, the smallest hexagon in this set can be drawn on a 5x3 grid. It also contains 3 free slots in the center, that can be used to include any other monospace character.
+This set is used to draw pointy-top hexagons and contains 42 glyphs.
 
-![](images/construction/large_pointy_top.png)
+Like in the flat-top set, the smallest hexagon can be drawn on a 5x3 grid and also contains 3 free slots in the center, that can be used to include any other monospace character.
+
+### Simple line (15 glyphs)
+
+![](images/chars/large_pointy_top/simple_corner_bottom_left.png)
+![](images/chars/large_pointy_top/simple_corner_bottom_right.png)
+![](images/chars/large_pointy_top/simple_corner_top_left.png)
+![](images/chars/large_pointy_top/simple_corner_top_right.png)
+![](images/chars/large_pointy_top/simple_corner_bottom.png)
+![](images/chars/large_pointy_top/simple_corner_top.png)
+![](images/chars/large_pointy_top/simple_fork_bottom.png)
+![](images/chars/large_pointy_top/simple_fork_top.png)
+![](images/chars/large_pointy_top/simple_line_rising_bottom.png)
+![](images/chars/large_pointy_top/simple_line_rising_middle.png)
+![](images/chars/large_pointy_top/simple_line_rising_top.png)
+![](images/chars/large_pointy_top/simple_line_falling_top.png)
+![](images/chars/large_pointy_top/simple_line_falling_middle.png)
+![](images/chars/large_pointy_top/simple_line_falling_bottom.png)
+![](images/chars/large_pointy_top/simple_line_vertical.png)
+
+![](./images/examples/large_pointy_top_simple.png)
+
+### Double line (15 glyphs)
+
+![](images/chars/large_pointy_top/double_corner_bottom_left.png)
+![](images/chars/large_pointy_top/double_corner_bottom_right.png)
+![](images/chars/large_pointy_top/double_corner_top_left.png)
+![](images/chars/large_pointy_top/double_corner_top_right.png)
+![](images/chars/large_pointy_top/double_corner_bottom.png)
+![](images/chars/large_pointy_top/double_corner_top.png)
+![](images/chars/large_pointy_top/double_fork_bottom.png)
+![](images/chars/large_pointy_top/double_fork_top.png)
+![](images/chars/large_pointy_top/double_line_rising_bottom.png)
+![](images/chars/large_pointy_top/double_line_rising_middle.png)
+![](images/chars/large_pointy_top/double_line_rising_top.png)
+![](images/chars/large_pointy_top/double_line_falling_top.png)
+![](images/chars/large_pointy_top/double_line_falling_middle.png)
+![](images/chars/large_pointy_top/double_line_falling_bottom.png)
+![](images/chars/large_pointy_top/double_line_vertical.png)
+
+![](./images/examples/large_pointy_top_double.png)
+
+### Mixed (12 glyphs)
+
+![](images/chars/large_pointy_top/mixed_simple_fork_bottom_double_left.png)
+![](images/chars/large_pointy_top/mixed_simple_fork_bottom_double_bottom.png)
+![](images/chars/large_pointy_top/mixed_simple_fork_bottom_double_right.png)
+![](images/chars/large_pointy_top/mixed_simple_fork_top_double_left.png)
+![](images/chars/large_pointy_top/mixed_simple_fork_top_double_top.png)
+![](images/chars/large_pointy_top/mixed_simple_fork_top_double_right.png)
+![](images/chars/large_pointy_top/mixed_double_fork_bottom_simple_left.png)
+![](images/chars/large_pointy_top/mixed_double_fork_bottom_simple_bottom.png)
+![](images/chars/large_pointy_top/mixed_double_fork_bottom_simple_right.png)
+![](images/chars/large_pointy_top/mixed_double_fork_top_simple_left.png)
+![](images/chars/large_pointy_top/mixed_double_fork_top_simple_top.png)
+![](images/chars/large_pointy_top/mixed_double_fork_top_simple_right.png)
+
+![](./images/examples/large_pointy_top_mixed.png)
 
 ## Small flat-top hexagons
 
