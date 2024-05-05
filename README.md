@@ -122,26 +122,24 @@ Like in the flat-top set, the smallest hexagon can be drawn on a 5x3 grid and al
 
 ![](./images/examples/large_pointy_top_mixed.png)
 
-## Small flat-top hexagons
-
-This set is used to draw small flat-top hexagons.
-
-The smallest hexagon can be drawn on a 3x3 grid and contain 1 free slot in the center of 1/3 of the hexagons, that can be used to include any other monospace character.
-
-This set is a work in progress but here is general idea:
-
-![](./images/teaser/small_flat_top.png)
-
-Considering the hight number of glyphs required to draw each combination of mixed-line forks (48 glyphs), this set is only provided in simple-line style.
-
 ## Small pointy-top hexagons
 
 This set is used to draw small pointy-top hexagons.
 
-The smallest hexagon can also be drawn on a 3x3 grid and contains 1 free slot in the center of each hexagon, that can be used to include any other monospace character.
+The smallest hexagon can be drawn on a 3x3 grid and contains 1 free slot in the center of each hexagon, that can be used to include any other monospace character.
 
-This set is also a work in progress but here is general idea:
+### Simple line (9 glyphs)
 
-![](./images/teaser/small_pointy_top.png)
+![](images/chars/small_pointy_top/corner_top.png)
+![](images/chars/small_pointy_top/corner_bottom.png)
+![](images/chars/small_pointy_top/flat_left.png)
+![](images/chars/small_pointy_top/flat_right.png)
+![](images/chars/small_pointy_top/bottom_fork_top_left.png)
+![](images/chars/small_pointy_top/bottom_fork_top_right.png)
+![](images/chars/small_pointy_top/top_fork_bottom_left.png)
+![](images/chars/small_pointy_top/top_fork_bottom_left.png)
+![](images/chars/small_pointy_top/double_fork.png)
 
-Considering the hight number of glyphs required to draw each combination of mixed-line forks (64 glyphs), this set is only provided in simple-line style.
+![](./images/examples/small_pointy_top.png)
+
+Considering the hight amount of glyphs required to draw each combination of mixed-line forks, this character set is only provided in simple-line style.
