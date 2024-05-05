@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   height="1000"
+   width="1000"
+   sodipodi:docname="test_font.svg"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3-dev (c4ce856, 2023-01-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="342.5"
+     inkscape:cy="480"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1367"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       id="guide_baseline"
+       inkscape:label="baseline"
+       position="0,253"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_ascender"
+       inkscape:label="ascender"
+       position="0,945"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_caps"
+       inkscape:label="caps"
+       position="0,896"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_xheight"
+       inkscape:label="xheight"
+       position="0,729"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide_descender"
+       inkscape:label="descender"
+       position="0,28"
+       orientation="0,1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="435"
+       id="font1"
+       inkscape:label="hexagon drawing">
+      <font-face
+         units-per-em="1000"
+         ascent="750"
+         cap-height="600"
+         x-height="400"
+         descent="200"
+         id="font-face1"
+         font-family="HexagonDrawing" />
+      <missing-glyph
+         d="M0,0h1000v1000h-1000z"
+         id="missing-glyph1" />
+      <glyph
+         glyph-name="Capital A"
+         unicode="A"
+         id="glyph1"
+         horiz-adv-x="0,00"
+         d="m 0,28 h 116.42414 l 16.90388,261.59511 H 242.15661 L 259.97925,28 h 173.02076 v 264.57234 l -135.23227,80.93209 5.70632,230.36711 129.52595,82.21177 V 896 H 295.48029 L 281.41905,773.10802 108.02658,771.91904 61.409399,896 H 0 V 657.42219 L 84.768018,617.86981 69.031029,341.24116 0,316.11683 Z" />
+    </font>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="a"
+     style="display:none"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="b"
+     style="display:none"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="hexagon drawing">
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="U+000041 A Capital A">
+      <path
+         d=""
+         id="path1" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.99999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.3;stop-color:#000000"
+         d="M 0,972 H 116.42414 L 133.32802,710.40489 H 242.15661 L 259.97925,972 H 433.00001 V 707.42766 L 297.76774,626.49557 303.47406,396.12846 433.00001,313.91669 V 104 H 295.48029 L 281.41905,226.89198 108.02658,228.08096 61.409399,104 H 0 V 342.57781 L 84.768018,382.13019 69.031029,658.75884 0,683.88317 Z"
+         id="path2"
+         sodipodi:nodetypes="ccccccccccccccccccccc" />
+    </g>
+  </g>
+</svg>
