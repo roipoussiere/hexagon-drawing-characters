@@ -8,34 +8,34 @@
     src: url("./test_font.ttf");
 }
 
-@font-face {
-    font-family: DejaVu;
-    src: url("./DejaVuSansMono.ttf");
+body {
+    background-color: lavender;
 }
 
-.hd {
-    font-family: HexagonDrawing;
-}
-
-.dv {
-    font-family: DejaVu;
+textArea {
+    display: block;
+    font-family: HexagonDrawing, Dejavu Sans Mono;
+    width: 16em;
+    height: 16em;
+    margin: auto;
+    font-size: 32px;
+    line-height: 38px;
+    background-color: thistle;
 }
 </style>
 
 </head>
 <body>
 
-<pre class="hd">
-AAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAA
-</pre>
-
-<pre class="dv">
-│A││  ║B║║  ║ ║║C │ ││
-├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
-└─┴┘A ╚═╩╝B ╙─╨╜C ╘═╧╛
-</pre>
+<textArea autofocus spellcheck="false">
+abcdefghijklmnopqr
+rabcdefghijklmnopq
+pqrabcdefghijklmno
+m┌─┬┐op╔═╦╗qr╓─╥╖ab╒═╤╕f
+n│a││bc║d║║ef║g║║hi│k││l
+o├─┼┤qr╠═╬╣ab╟─╫╢cd╞═╪╡e
+p└─┴┘gh╚═╩╝ij╙─╨╜kl╘═╧╛m
+</textArea>
 
 </body>
 </html>
