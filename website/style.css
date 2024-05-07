@@ -1,0 +1,43 @@
+@font-face {
+    font-family: HexagonDrawing;
+    src: url("./hexagon_drawing.ttf");
+}
+
+body {
+    background-color: lavender;
+    font-family: Dejavu Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    font-size: 16px;
+    border-collapse: collapse;
+    margin: 1.5em auto;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 4px;
+}
+
+th {
+    font-family: Dejavu Sans Mono;
+}
+
+td {
+    font-family: HexagonDrawing;
+}
+
+textArea {
+    display: block;
+    font-family: HexagonDrawing, Dejavu Sans Mono;
+    width: 925px;
+    height: 460px;
+    margin: auto;
+    font-size: 64px;
+    line-height: 76px;
+    background-color: thistle;
+}
