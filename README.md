@@ -1,9 +1,11 @@
 # Hexagon-drawing characters
 
-A monospace character set designed to draw hexagonal characters, that can be used in flat files or a terminal.
+A monospace character set designed to draw hexagons, that can be used in flat files or a terminal. 
 
 It aims to be the equivalent of the [box-drawing characters](https://en.wikipedia.org/wiki/Box_Drawing) for hexagons.
 This set is designed with 2 line styles: *simple* and *double*, and allow mixing both.
+
+Checkout the demo [here](https://roipoussiere.github.io/hexagon-drawing-characters/).
 
 ## Large flat-top hexagons
 

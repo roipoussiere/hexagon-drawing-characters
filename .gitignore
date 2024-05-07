@@ -1,3 +1,5 @@
-drafts/
+# Personal notes and schematics
+/drafts/
 
-sources/wip_*
+# Static website folder
+/public/
