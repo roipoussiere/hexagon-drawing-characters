@@ -13,12 +13,12 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
-XUID: [1021 411 321256273 5780083]
+XUID: [1021 411 321256273 185109]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1715018359
-ModificationTime: 1715018532
+CreationTime: 1715116759
+ModificationTime: 1715116781
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,9 +50,9 @@ BeginChars: 80 18
 
 StartChar: a
 Encoding: 1 97 0
-Width: 1233
+Width: 0
 VWidth: 1024
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -72,7 +72,7 @@ StartChar: b
 Encoding: 2 98 1
 Width: 1233
 VWidth: 1024
-Flags: HW
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -92,7 +92,7 @@ StartChar:
 Encoding: 3 99 2
 Width: 1233
 VWidth: 1024
-Flags: HW
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -200,18 +200,18 @@ Flags: H
 LayerCount: 2
 Fore
 SplineSet
-1132.4947 1613.2301 m 1
- 1217.3488 1613.2301 l 1
- 1217.3488 1442.9313 l 1
- 693.52405 396.1725 l 1
- 1217.3488 -651.1806 l 1
- 1217.3488 -821.4795 l 1
- 1132.6443 -821.4795 l 1
- 562.01286 319.6422 l 1
- -0.00315888 319.6422 l 1
- -0.00315888 471.96 l 1
- 561.56427 471.96 l 1
- 1132.4947 1613.2301 l 1
+1147.0578 1951.6104 m 1
+ 1233.0026 1951.6104 l 1
+ 1233.0026 1779.1225 l 1
+ 702.44455 718.9086 l 1
+ 1233.0026 -341.9073 l 1
+ 1233.0026 -514.3953 l 1
+ 1147.2093 -514.3953 l 1
+ 569.2429 641.3945 l 1
+ 0.00264119 641.3945 l 1
+ 0.00264119 795.6702 l 1
+ 568.78854 795.6702 l 1
+ 1147.0578 1951.6104 l 1
 EndSplineSet
 EndChar
 
@@ -427,7 +427,7 @@ StartChar:
 Encoding: 16 112 15
 Width: 1233
 VWidth: 1024
-Flags: HW
+Flags: H
 LayerCount: 2
 Fore
 SplineSet

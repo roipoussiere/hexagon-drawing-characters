@@ -38,6 +38,7 @@ textArea {
     height: 460px;
     margin: auto;
     font-size: 64px;
-    line-height: 76px;
+    line-height: 75px;
+    /* line-height: 64px; */
     background-color: thistle;
 }
